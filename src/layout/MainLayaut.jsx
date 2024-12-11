@@ -35,11 +35,11 @@ function MainLayaut({ children }) {
             >
               <i
                 className={`cursor-pointer text-2xl ${
-                  theme === "light" ? " fa-solid fa-moon " : "fa-regular fa-sun"
+                  theme == "light" ? " fa-solid fa-moon " : "fa-regular fa-sun"
                 }`}
               ></i>
               <h3 className="text-[16px] select-none font-semibold leading-[22px] text-[#111517] cursor-pointer dark:text-white">
-                {t(theme === "light" ? "Dark Mode" : "Light Mode")}
+                {t(theme == "light" ? "Dark Mode" : "Light Mode")}
               </h3>
             </div>
 
